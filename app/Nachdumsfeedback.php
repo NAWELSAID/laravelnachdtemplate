@@ -6,11 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Partenaire extends Model
+class Nachdumsfeedback extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        "name", "logo"
-    ];
-
+    protected $fillable = ["name", "photo", "position", "feedback"
+];
 }
