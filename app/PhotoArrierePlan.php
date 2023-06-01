@@ -10,7 +10,7 @@ class PhotoArrierePlan extends Model
 {
     use HasFactory;
     protected $fillable = [
-        "home", "aboutu", "stori", "articule", "project", "nachdums","bandarticle","bandproject","backgroundimage","homebackground"
+        "home", "aboutu", "menu","stori", "articule", "project", "nachdums","bandarticle","bandproject","backgroundimage","homebackground","francais","anglais"
     ];
 
 }

@@ -35,7 +35,7 @@ Route::get('dataservice', [NachdController::class, 'service'])-> name('dataservi
 Route::get('dataproject', [NachdController::class, 'project'])-> name('dataproject');
 Route::get('datalastproject', [NachdController::class, 'lastproject'])-> name('datalastproject');
 Route::get('dataCategoriproject', [NachdController::class, 'Categoriproject'])-> name('dataCategoriproject');
-Route::get('databyproject', [NachdController::class, 'byproject'])-> name('databyproject');
+Route::get('databyproject/{id}', [NachdController::class, 'byproject'])-> name('databyproject');
 
 /* profile//home */
 Route::get('dataprofile', [NachdController::class, 'profile'])-> name('dataprofile');

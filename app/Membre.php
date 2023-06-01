@@ -10,6 +10,6 @@ class Membre extends Model
 {
     use HasFactory;
     protected $fillable = [
-        "name", "photo", "position", "linkedin", "facebook", "cv"
+        "name", "photo", "position_fr", "position_en", "linkedin", "facebook", "cv"
     ];
 }

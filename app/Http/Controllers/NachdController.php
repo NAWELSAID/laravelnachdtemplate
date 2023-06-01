@@ -82,7 +82,7 @@ class NachdController extends Controller
     }
     public function byproject($id)
     {
-        return Project::where('category_id' , $id)->latest()->take(6)->get();
+        return Project::where('category' , $id)->latest()->take(6)->get();
     }
     public function  Categoriproject()
     {
